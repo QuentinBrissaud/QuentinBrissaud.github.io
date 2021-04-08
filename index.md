@@ -2,7 +2,7 @@
 layout: home
 image:
   feature: venus.jpg
-  credit: quentin
+  credit: NASA
 excerpt: "Exotic applications in geophysics"
 tags: [blog]
 ---
