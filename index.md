@@ -3,7 +3,7 @@ layout: home
 image:
   feature: sample-image-3.jpg
   credit: quentin
-excerpt: "Blog on R, statistics, and education"
+excerpt: "Blog on exotic applications in geophysics"
 tags: [blog]
 ---
 
