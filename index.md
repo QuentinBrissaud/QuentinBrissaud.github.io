@@ -1,9 +1,9 @@
 ---
 layout: home
 image:
-  feature: sample-image-3.jpg
+  feature: venus.jpg
   credit: quentin
-excerpt: "Blog on exotic applications in geophysics"
+excerpt: "Exotic applications in geophysics"
 tags: [blog]
 ---
 
