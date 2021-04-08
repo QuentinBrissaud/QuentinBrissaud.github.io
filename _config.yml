@@ -1,11 +1,11 @@
 # Site wide configuration
 
-title:            Variance Explained
+title:            Quentin Brissaud
 locale:           en_US
 # url:              http://localhost:4000
 
-name: Variance Explained
-description: Thoughts on statistics, data science, computational biology, education, and R
+name: Quentin Brissaud
+description: Near-surface seismic processes and atmospheric propagation
 
 # Jekyll configuration
 
@@ -28,12 +28,12 @@ kramdown:
 
 # Site owner
 owner:
-  name: David Robinson
-  avatar: david_robinson_picture2.jpg
-  bio: "Principal Data Scientist at Heap, works in R and Python."
-  email: admiral.david@gmail.com
-  disqus-shortname: varianceexplained
-  twitter: drob
+  name: Quentin Brissaud
+  avatar: quentin.jpg
+  bio: "Geophysicist at NORSAR, Oslo."
+  email: quentinbrissaud@gmail.com
+  disqus-shortname: quentinbrissaud
+  twitter: QuentinBrissaud
   facebook: #username
   google:
     plus: #username
@@ -42,8 +42,8 @@ owner:
     ad-client: 
     ad-slot: 
   bing-verify: 
-  github: dgrtwo
-  stackoverflow: 712603
+  github: QuentinBrissaud
+  stackoverflow: 
   linkedin: 
   instagram: #username
   lastfm: #username
