@@ -2,12 +2,12 @@
 
 - title: About Me
   url: /about/
-
-- title: Posts
+  
+  title: News
   url: /posts/
-
-- title: Text Mining in R
-  url: https://www.tidytextmining.com/
-
-- title: Introduction to Empirical Bayes
-  url: /r/empirical-bayes-book/
+  
+  title: Research
+  url: /research/
+  
+  title: Publications
+  url: /publications/
