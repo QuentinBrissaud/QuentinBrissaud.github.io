@@ -3,17 +3,15 @@ layout: page
 title: About Me
 tags: [about]
 comments: false
-pdf_document_path: images/CV_Quentin_Brissaud.pdf
 ---
 
 I am a geophysicist working at NORSAR, in Oslo, Norway. My interests include near-surface seismology, natural and man-made geophysical event analysis using infrasound data, and source and subsurface velocity inversions using seismic and infrasound records. 
 seismic and acoustic wave-propagation modeling, acoustic
 
-Education
+CV
 ============
 
-* [Text Mining with R: A Tidy Approach](https://www.amazon.com/gp/product/1491981652/): a guide to drawing insights from text using the [tidytext](http://github.com/dgrtwo/tidytext) package in R. Co-authored with Julia Silge, and published by O'Reilly in July 2017. Also available [for free online](https://www.tidytextmining.com/).
-* [Introduction to Empirical Bayes: Examples from Baseball Statistics](http://varianceexplained.org/r/empirical-bayes-book/). An e-book demonstrating the statistical method of empirical Bayes, based on the example of estimating baseball batting averages.
+<object data="/images/CV_Quentin_Brissaud.pdf" type="application/pdf"></object>
 
 About This Site
 =========
