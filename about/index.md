@@ -11,7 +11,11 @@ seismic and acoustic wave-propagation modeling, acoustic
 CV
 ============
 
-<object data="/images/CV_Quentin_Brissaud.pdf" type="application/pdf"></object>
+<object 
+  data="/images/CV_Quentin_Brissaud.pdf" 
+  width="1000" 
+  height="1000" 
+  type="application/pdf"></object>
 
 About This Site
 =========
