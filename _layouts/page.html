@@ -36,7 +36,11 @@
     <h1>{{ page.title }}</h1>
     <div class="article-wrap">
       {{ content }}
-    </div><!-- /.article-wrap -->
+	  {% if page.pdf_document_path %}
+		CV
+	    <object data="{{ page.pdf_document_path }}" width="1000" height="1000" type='application/pdf'/>
+      {% endif %}
+	</div><!-- /.article-wrap -->
     {% if site.owner.disqus-shortname and page.comments == true %}
       <section id="disqus_thread"></section><!-- /#disqus_thread -->
     {% endif %}
