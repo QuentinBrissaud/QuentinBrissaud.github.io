@@ -8,7 +8,7 @@ comments: false
 I am a geophysicist working at NORSAR, in Oslo, Norway. My interests include near-surface seismology, natural and man-made geophysical event analysis using infrasound data, and source and subsurface velocity inversions using seismic and infrasound records. 
 seismic and acoustic wave-propagation modeling, acoustic
 
-CV
+Curriculum Vitae
 ============
 
 <object 
@@ -16,6 +16,7 @@ CV
   width="1000" 
   height="1000" 
   type="application/pdf"></object>
+
 
 About This Site
 =========
