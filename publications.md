@@ -1,15 +1,8 @@
----
-layout: page
-title: Publications
-tags: [publications]
-comments: false
----
-
 Journal
 =====
 
-0. **Quentin Brissaud**, Siddharth Krishnamoorthy, Jennifer Jackson, et al. (2021) [The first detection of an earthquake from a balloon using its acoustic signature](). *Geophysical Research Letters*
-1. Voon Hui Lai, Zhongwen Zhan, Osamu Sandanbata, **Quentin Brissaud**, et al. (2021) [Inflation and Asymmetric Collapse at Kilauea Summit during the 2018 Eruption from Seismic and Infrasound Analyses](https://www.essoar.org/doi/abs/10.1002/essoar.10506637.1). **
+0. Voon Hui Lai, Zhongwen Zhan, Osamu Sandanbata, **Quentin Brissaud**, et al. (2021) [Inflation and Asymmetric Collapse at Kilauea Summit during the 2018 Eruption from Seismic and Infrasound Analyses](https://www.essoar.org/doi/abs/10.1002/essoar.10506637.1). **
+1. **Quentin Brissaud**, Siddharth Krishnamoorthy, Jennifer Jackson, et al. (2021) [The first detection of an earthquake from a balloon using its acoustic signature](). *Geophysical Research Letters*
 2. **Quentin Brissaud**, Daniel C Bowden, Victor C Tsai, et al. (2020) [Extension of the Basin Rayleigh‐Wave Amplification Theory to Include Basin‐Edge Effects](https://pubs.geoscienceworld.org/ssa/bssa/article/110/3/1305/583439). *Bulletin of the Seismological Society of America*, 3(110):1305-1322
 3. **Quentin Brissaud**, Victor C Tsai, et al. (2019) [Validation of a fast semi-analytic method for surface-wave propagation in layered media](https://academic.oup.com/gji/article-abstract/219/2/1405/5561445). *Geophysical Journal International*, 2(219):1405-1420
 4. Léo Martire, **Quentin Brissaud**, Voon Hui Lai, et al. (2018) [Numerical simulation of the atmospheric signature of artificial and natural seismic events](https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2018GL080485). *Geophysical Research Letters*, 21(45):12,085-12,093

@@ -30,7 +30,7 @@ def modify_author(input, name, max_author):
 
 def modify_type(new_entry, bib):
 
-    list_conf = ['AGU', 'EGU', 'ESSOAR'] # should be uppercase
+    list_conf = ['AGU', 'EGU', 'ESSOAR', 'MEETING'] # should be uppercase
     tests     = ['journal', 'publisher']
     type = 'journal'
     for test in tests:
@@ -112,8 +112,12 @@ def process_one_study(study, name, max_author, istudy):
             dict_study[key] = ''
         if key in keys_int:
             if dict_study[key]:
-                dict_study[key] = int(dict_study[key])
-            
+                ## Some conference volumes have letters in it (e.g., EGU21-1224)
+                try:
+                    dict_study[key] = int(dict_study[key])
+                except:
+                    pass
+                    
     return dict_study
 
 def write_md_studies(studies, name, format_md, max_author=3):
@@ -122,7 +126,8 @@ def write_md_studies(studies, name, format_md, max_author=3):
     grouped = studies.groupby('type')
     with open(options['output'], 'w') as md_file:
         
-        for type, group in grouped:
+        list_of_groups = [(type, group) for type, group in grouped]
+        for type, group in list_of_groups[::-1]:
         
             md_file.write(type.capitalize() + '\n')
             md_file.write('=====\n\n')
@@ -136,6 +141,23 @@ def write_md_studies(studies, name, format_md, max_author=3):
                 line += '\n'
                 md_file.write(line)
 
+            line = '\n'
+            md_file.write(line)
+
+def add_specific_studies(studies, add_by_hand):
+
+    columns = studies.columns
+    for study in add_by_hand:
+        for column in columns:
+            if not column in study:
+                study[column] == 'N/A'
+        studies = studies.append( [study] )
+    
+    studies.reset_index(inplace=True, drop=True)
+    studies.sort_values(inplace=True, by='pub_year', ascending=False)
+    
+    return studies
+
 options = {}
 options['format']   = {
     'base': '{no}. {author}. ({pub_year}) [{title}]({url}). *{journal}*',
@@ -144,7 +166,16 @@ options['format']   = {
 options['database'] = ''#'./database_publications.csv'
 options['name']     = 'Quentin Brissaud'
 options['output']   = './publications.md'
-studies  = collect_all_studies(options['name'], options['database'])
+
+entry = {
+    'type': 'journal', 'title': 'The first detection of an earthquake from a balloon using its acoustic signature', 'pub_year': 2021, 'author': 'Quentin Brissaud and Siddharth Krishnamoorthy and Jennifer Jackson and Daniel Bowman and Attila Komjathy and James Cutts and Jacob Izraelevitz and Zhongwen Zhan', 'volume': 'N/A', 'number': 'N/A', 'pages': 'N/A', 'journal': 'Geophysical Research Letters', 'publisher': 'AGU', 'abstract': '', 'url': 'N/A', 'title_upper': '',
+}
+options['add_by_hand'] = [
+    entry,
+]
+
+studies = collect_all_studies(options['name'], options['database'])
+studies = add_specific_studies(studies, options['add_by_hand'])
 write_md_studies(studies, options['name'], options['format'])
 
 bp()
