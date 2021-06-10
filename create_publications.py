@@ -5,9 +5,11 @@ import pandas as pd
 
 def modify_author(input, name, max_author):
 
+    last_name = name.split(' ')[-1]
+
     input_split = input.split(' and ')
     input = input_split[:max_author]
-    idx   = input_split.index(name)
+    idx   = [iname for iname, name_ in enumerate(input_split) if last_name in name_][0] #input_split.index(name)
     if idx > 2:
         if idx > 3:
             input += ['...']
@@ -106,7 +108,10 @@ def process_one_study(study, name, max_author, istudy):
     keys_int = ['pub_year', 'volume', 'number']
     dict_study = study.to_dict()
     dict_study['no'] = istudy
-    dict_study['author'] = modify_author(dict_study['author'], name, max_author)
+    try:
+     dict_study['author'] = modify_author(dict_study['author'], name, max_author)
+    except:
+     bp()
     for key in dict_study:
         if dict_study[key] == 'N/A':
             dict_study[key] = ''
@@ -168,8 +173,9 @@ options['name']     = 'Quentin Brissaud'
 options['output']   = './publications.md'
 
 entry = {
-    'type': 'journal', 'title': 'The first detection of an earthquake from a balloon using its acoustic signature', 'pub_year': 2021, 'author': 'Quentin Brissaud and Siddharth Krishnamoorthy and Jennifer Jackson and Daniel Bowman and Attila Komjathy and James Cutts and Jacob Izraelevitz and Zhongwen Zhan', 'volume': 'N/A', 'number': 'N/A', 'pages': 'N/A', 'journal': 'Geophysical Research Letters', 'publisher': 'AGU', 'abstract': '', 'url': 'N/A', 'title_upper': '',
+    'type': 'conference', 'title': 'Balloons as geophysical probes', 'pub_year': 2021, 'author': 'Quentin Brissaud and Siddharth Krishnamoorthy and Jennifer M Jackson and Daniel C Bowman and Attila Komjathy and James A Cutts and Zhongwen Zhan and Michael T Pauken and Jacob S Izraelevitz and Gerald J Walsh', 'volume': 'N/A', 'number': 'N/A', 'pages': 'N/A', 'journal': 'Invited presentation at GeoAzur', 'publisher': '', 'abstract': '', 'url': 'https://geoazur.oca.eu/fr/agenda-geoazur', 'title_upper': '',
 }
+entry['title_upper'] = entry['title'].upper()
 options['add_by_hand'] = [
     entry,
 ]
