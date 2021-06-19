@@ -172,14 +172,28 @@ options['database'] = ''#'./database_publications.csv'
 options['name']     = 'Quentin Brissaud'
 options['output']   = './publications.md'
 
+## Manual entries
+options['add_by_hand'] = []
+
 entry = {
     'type': 'conference', 'title': 'Balloons as geophysical probes', 'pub_year': 2021, 'author': 'Quentin Brissaud and Siddharth Krishnamoorthy and Jennifer M Jackson and Daniel C Bowman and Attila Komjathy and James A Cutts and Zhongwen Zhan and Michael T Pauken and Jacob S Izraelevitz and Gerald J Walsh', 'volume': 'N/A', 'number': 'N/A', 'pages': 'N/A', 'journal': 'Invited presentation at GeoAzur', 'publisher': '', 'abstract': '', 'url': 'https://geoazur.oca.eu/fr/agenda-geoazur', 'title_upper': '',
 }
 entry['title_upper'] = entry['title'].upper()
-options['add_by_hand'] = [
-    entry,
-]
+options['add_by_hand'].append( entry )
 
+entry = {
+    'type': 'conference', 'title': 'Detection and properties of local artillery infrasound', 'pub_year': 2021, 'author': 'Quentin Brissaud and Tormod Kværna and Kamran Iranpour and Tina Kaschwich and Idar Dyrdal', 'volume': 'N/A', 'number': 'N/A', 'pages': 'N/A', 'journal': 'CTBT Science and Technology Conference 2021 (SnT2021)', 'publisher': '', 'abstract': '', 'url': 'https://conferences.ctbto.org/event/7/book-of-abstracts.pdf', 'title_upper': '',
+}
+entry['title_upper'] = entry['title'].upper()
+options['add_by_hand'].append( entry )
+
+entry = {
+    'type': 'journal', 'title': 'Near-real-time detection of co-seismic ionospheric disturbances using machine learning', 'pub_year': 2021, 'author': 'Quentin Brissaud and Elvira Astafyeva', 'volume': 'N/A', 'number': 'N/A', 'pages': 'N/A', 'journal': 'Geophysical Research Letters (in review)', 'publisher': '', 'abstract': '', 'url': '', 'title_upper': '',
+}
+entry['title_upper'] = entry['title'].upper()
+options['add_by_hand'].append( entry )
+
+## Fetch and build reference list
 studies = collect_all_studies(options['name'], options['database'])
 studies = add_specific_studies(studies, options['add_by_hand'])
 write_md_studies(studies, options['name'], options['format'])
