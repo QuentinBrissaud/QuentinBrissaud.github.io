@@ -8,7 +8,7 @@ comments: false
 Journal
 =====
 
-0. **Quentin Brissaud**, Elvira Astafyeva, et al. (2021) [Near-real-time detection of co-seismic ionospheric disturbances using machine learning](). *Geophysical Research Letters (in review)*
+0. **Quentin Brissaud**, Elvira Astafyeva, et al. (2021) Near-real-time detection of co-seismic ionospheric disturbances using machine learning. *Geophysical Research Letters (in review)*
 1. **Quentin Brissaud**, Siddharth Krishnamoorthy, Jennifer M Jackson, et al. (2021) [The first detection of an earthquake from a balloon using its acoustic signature](https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2021GL093013). *Geophysical Research Letters*
 2. Voon Hui Lai, Zhongwen Zhan, Osamu Sandanbata, **Quentin Brissaud**, et al. (2021) [Inflation and Asymmetric Collapse at Kilauea Summit during the 2018 Eruption from Seismic and Infrasound Analyses](https://www.essoar.org/doi/abs/10.1002/essoar.10506637.1). **
 3. S Krishnamoorthy, A Komjathy, MT Pauken, ..., **Quentin Brissaud**, et al. (2020) [Progress Towards Balloon-Based Seismology on Venus in 2019–2020](https://ui.adsabs.harvard.edu/abs/2020LPICo2356.8033K/abstract). *LPI Contributions*, (2356):8033
