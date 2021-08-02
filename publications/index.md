@@ -5,6 +5,9 @@ tags: [publications]
 comments: false
 ---
 
+Journal
+=====
+
 0. Voon Hui Lai, Zhongwen Zhan, **Quentin Brissaud**, et al. (2021) [Inflation and Asymmetric Collapse at Kilauea Summit during the 2018 Eruption from Seismic and Infrasound Analyses](https://www.essoar.org/doi/abs/10.1002/essoar.10506637.1). *Journal of Geophysical Research (in review)*
 1. **Quentin Brissaud**, Elvira Astafyeva, et al. (2021) [Near-real-time detection of co-seismic ionospheric disturbances using machine learning](). *Geophysical Journal International - Express letter (in review)*
 2. Leo Martire, Roland Martin, **Quentin Brissaud**, et al. (2021) [SPECFEM2D-DG, an Open Source Software Modeling Mechanical Waves in Coupled Solid-Fluid Systems: the Linearised Navier-Stokes Approach](). *Geophysical Journal International (accepted)*
