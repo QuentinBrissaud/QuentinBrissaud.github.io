@@ -3,22 +3,39 @@ from pdb import set_trace as bp
 from scholarly import scholarly
 import pandas as pd
 
-def modify_author(input, name, max_author):
+def modify_author(input, names, max_author):
 
-    last_name = name.split(' ')[-1]
+    last_name = names.split(' ')[-1]
 
     input_split = input.split(' and ')
     input = input_split[:max_author]
+    
+    """
+    idx = []
+    for name in last_name:
+        for iname, name_ in enumerate(input_split):
+            if name in name_:
+                idx.append( iname )
+    bp()
+    idx = idx[0]
+    """
+    #try:
     idx   = [iname for iname, name_ in enumerate(input_split) if last_name in name_][0] #input_split.index(name)
+    try:
+     name_right_format = input_split[idx]
+    
+    except:
+        bp()
+        
     if idx > 2:
         if idx > 3:
             input += ['...']
-        input += [name]
+        input += [name_right_format]
     
     if idx < len(input_split)-1:
         input += ['et al']
         
-    input[input.index(name)] = '**' + name + '**'
+    input[input.index(name_right_format)] = '**' + names + '**'
     if len(input) > 1:
         input_ = ', '.join(input[:-1])
     else:
@@ -43,7 +60,7 @@ def modify_type(new_entry, bib):
     
     return type
 
-def get_one_entry(name, pub, keys_publications):
+def get_one_entry(pub, keys_publications):
     
     publication_full = scholarly.fill(pub)
     new_entry = {}
@@ -66,7 +83,7 @@ def get_one_entry(name, pub, keys_publications):
     
     return new_entry
 
-def collect_all_studies(name, database=''):
+def collect_all_studies(names, database=''):
 
     if database:
         studies = pd.read_csv(database, sep='|', header=[0])
@@ -78,7 +95,7 @@ def collect_all_studies(name, database=''):
     keys_publications = ['type', 'title', 'pub_year', 'author', 'volume', 'number', 'pages', 'journal', 'publisher', 'abstract']
 
     ## Retrieve the author's data, fill-in
-    search_query = scholarly.search_author(name)
+    search_query = scholarly.search_author(names)
     author = scholarly.fill(next(search_query))
 
     ## Retrieve all publication data
@@ -90,7 +107,7 @@ def collect_all_studies(name, database=''):
                 continue
                 
         any_change = True
-        new_entry = get_one_entry(name, pub, keys_publications)
+        new_entry = get_one_entry(pub, keys_publications)
         studies = studies.append( [new_entry] )
         
     studies['title_upper'] = studies['title'].astype(str).str.upper()
@@ -108,10 +125,7 @@ def process_one_study(study, name, max_author, istudy):
     keys_int = ['pub_year', 'volume', 'number']
     dict_study = study.to_dict()
     dict_study['no'] = istudy
-    try:
-     dict_study['author'] = modify_author(dict_study['author'], name, max_author)
-    except:
-     bp()
+    dict_study['author'] = modify_author(dict_study['author'], name, max_author)
     for key in dict_study:
         if dict_study[key] == 'N/A':
             dict_study[key] = ''
@@ -193,8 +207,16 @@ entry = {
 entry['title_upper'] = entry['title'].upper()
 options['add_by_hand'].append( entry )
 
+"""
 entry = {
     'type': 'journal', 'title': 'SPECFEM2D-DG, an Open Source Software Modeling Mechanical Waves in Coupled Solid-Fluid Systems: the Linearised Navier-Stokes Approach', 'pub_year': 2021, 'author': 'Leo Martire and Roland Martin and Quentin Brissaud and Raphael Garcia', 'volume': 'N/A', 'number': 'N/A', 'pages': 'N/A', 'journal': 'Geophysical Journal International (accepted)', 'publisher': '', 'abstract': '', 'url': '', 'title_upper': '',
+}
+entry['title_upper'] = entry['title'].upper()
+options['add_by_hand'].append( entry )
+"""
+
+entry = {
+    'type': 'journal', 'title': 'Parsimonious velocity inversion applied to the Los Angeles Basin, CA', 'pub_year': 2021, 'author': 'Jack B Muir and Robert Clayton and Victor C Tsai and Quentin Brissaud', 'volume': 'N/A', 'number': 'N/A', 'pages': 'N/A', 'journal': 'Geophysical Journal International (in review)', 'publisher': '', 'abstract': '', 'url': '', 'title_upper': '',
 }
 entry['title_upper'] = entry['title'].upper()
 options['add_by_hand'].append( entry )
