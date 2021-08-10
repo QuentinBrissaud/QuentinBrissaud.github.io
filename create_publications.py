@@ -201,15 +201,9 @@ entry = {
 entry['title_upper'] = entry['title'].upper()
 options['add_by_hand'].append( entry )
 
-entry = {
-    'type': 'journal', 'title': 'Near-real-time detection of co-seismic ionospheric disturbances using machine learning', 'pub_year': 2021, 'author': 'Quentin Brissaud and Elvira Astafyeva', 'volume': 'N/A', 'number': 'N/A', 'pages': 'N/A', 'journal': 'Geophysical Journal International - Express letter (in review)', 'publisher': '', 'abstract': '', 'url': '', 'title_upper': '',
-}
-entry['title_upper'] = entry['title'].upper()
-options['add_by_hand'].append( entry )
-
 """
 entry = {
-    'type': 'journal', 'title': 'SPECFEM2D-DG, an Open Source Software Modeling Mechanical Waves in Coupled Solid-Fluid Systems: the Linearised Navier-Stokes Approach', 'pub_year': 2021, 'author': 'Leo Martire and Roland Martin and Quentin Brissaud and Raphael Garcia', 'volume': 'N/A', 'number': 'N/A', 'pages': 'N/A', 'journal': 'Geophysical Journal International (accepted)', 'publisher': '', 'abstract': '', 'url': '', 'title_upper': '',
+    'type': 'journal', 'title': 'Near-real-time detection of co-seismic ionospheric disturbances using machine learning', 'pub_year': 2021, 'author': 'Quentin Brissaud and Elvira Astafyeva', 'volume': 'N/A', 'number': 'N/A', 'pages': 'N/A', 'journal': 'Geophysical Journal International - Express letter (in review)', 'publisher': '', 'abstract': '', 'url': '', 'title_upper': '',
 }
 entry['title_upper'] = entry['title'].upper()
 options['add_by_hand'].append( entry )
