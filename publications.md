@@ -2,7 +2,7 @@ Journal
 =====
 
 0. Léo Martire, R Martin, **Quentin Brissaud**, et al. (2021) [SPECFEM2D-DG, an open source software modeling mechanical waves in coupled solid-fluid systems: the Linearised navier-stokes approach](https://academic.oup.com/gji/advance-article-abstract/doi/10.1093/gji/ggab308/6342174). *Geophysical Journal International*
-1. Voon Hui Lai, Zhongwen Zhan, Osamu Sandanbata, **Quentin Brissaud**, et al. (2021) [Inflation and Asymmetric Collapse at Kilauea Summit during the 2018 Eruption from Seismic and Infrasound Analyses](https://www.essoar.org/doi/10.1002/essoar.10506637.2). **
+1. Voon Hui Lai, Zhongwen Zhan, **Quentin Brissaud**, et al. (2021) [Inflation and Asymmetric Collapse at Kilauea Summit during the 2018 Eruption from Seismic and Infrasound Analyses](https://www.essoar.org/doi/10.1002/essoar.10506637.2). **
 2. Jack B Muir, Robert Clayton, Victor C Tsai, and **Quentin Brissaud**. (2021) [Parsimonious velocity inversion applied to the Los Angeles Basin, CA](). *Geophysical Journal International (in review)*
 3. **Quentin Brissaud** and Elvira Astafyeva. (2021) [Near-real-time detection of co-seismic ionospheric disturbances using machine learning](https://www.essoar.org/doi/abs/10.1002/essoar.10507674.1). *Geophysical Journal International - Express letter (in review)*
 4. **Quentin Brissaud**, Siddharth Krishnamoorthy, Jennifer M Jackson, et al. (2021) [The first detection of an earthquake from a balloon using its acoustic signature](https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2021GL093013). *Geophysical Research Letters*
