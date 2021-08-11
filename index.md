@@ -1,9 +1,9 @@
 ---
 layout: home
 image:
-  feature: venus.jpg
-  credit: NASA. A panoramic view of the surface of Venus from the Venera 13 lander.
-excerpt: "Exotic applications in geophysics"
+  feature: balloon_field_Ridgecrest.jpg
+  credit: NASA. Deployment of a heliotrope balloon in Southern California after the 2019 Ridgecrest earthquake.
+excerpt: "Exotic seismo-acoustic applications in geophysics"
 tags: [blog]
 ---
 
