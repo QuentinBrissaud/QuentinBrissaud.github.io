@@ -207,14 +207,14 @@ entry = {
 }
 entry['title_upper'] = entry['title'].upper()
 options['add_by_hand'].append( entry )
-"""
+
 
 entry = {
-    'type': 'journal', 'title': 'Parsimonious velocity inversion applied to the Los Angeles Basin, CA', 'pub_year': 2021, 'author': 'Jack B Muir and Robert Clayton and Victor C Tsai and Quentin Brissaud', 'volume': 'N/A', 'number': 'N/A', 'pages': 'N/A', 'journal': 'Geophysical Journal International (in review)', 'publisher': '', 'abstract': '', 'url': '', 'title_upper': '',
+    'type': 'journal', 'title': 'Parsimonious velocity inversion applied to the Los Angeles Basin, CA', 'pub_year': 2021, 'author': 'Jack B Muir and Robert Clayton and Victor C Tsai and Quentin Brissaud', 'volume': 'N/A', 'number': 'N/A', 'pages': 'N/A', 'journal': 'Geophysical Journal International (in review)', 'publisher': '', 'abstract': '', 'url': 'https://doi.org/10.31223/X5F03K', 'title_upper': '',
 }
 entry['title_upper'] = entry['title'].upper()
 options['add_by_hand'].append( entry )
-
+"""
 ## Fetch and build reference list
 studies = collect_all_studies(options['name'], options['database'])
 studies = add_specific_studies(studies, options['add_by_hand'])
