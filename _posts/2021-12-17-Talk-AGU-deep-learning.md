@@ -12,7 +12,8 @@ comments: false
 {% highlight r %}
 Reference:
 [1] Q. Brissaud, S. P. Naesholm, A. Turquet, and A. Le Pichin. Predicting infrasound transmission loss using deep learning. Geophysical Journal International (in review, 2021)
-{% endhighlight %}
+<https://doi.org/10.1002/essoar.10509609.1>
+
 
 We will be giving an invited talk at the AGU 2021 during the session S51A - Geophysical and Planetary Seismoacoustics: Capturing the Full Wavefield <https://agu.confex.com/agu/fm21/meetingapp.cgi/Paper/883443>. I will be discussing the implementation of a deep learning technique trained over a synthetic dataset to predict ground transmission loss, i.e., attenuation of infrasound waves vs range from a surface source.
 

@@ -9,10 +9,10 @@ tags: [presentation, infrasound, balloon, inversion, venus]
 comments: false
 ---
 
-{% highlight r %}
 Reference:
 Q. Brissaud, et al.  The first detection of an earthquake from a balloon using its acoustic signature. Geophysical Research Letters, e2021GL093013, 2021.
-{% endhighlight %}
+<https://doi.org/10.1029/2021GL093013>
+
 
 I will be giving an invited talk at the AGU 2021 during the session S51A - Geophysical and Planetary Seismoacoustics: Capturing the Full Wavefield <https://agu.confex.com/agu/fm21/meetingapp.cgi/Paper/801898>. I will be discussing infrasound-based subsurface inversions and offer perspectives for the deployement/design of inversion methods.
 

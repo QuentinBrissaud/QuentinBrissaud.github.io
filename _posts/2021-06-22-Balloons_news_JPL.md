@@ -9,10 +9,10 @@ tags: [infrasound, venus]
 comments: false
 ---
 
-{% highlight r %}
 References:
-Brissaud, Q., Krishnamoorthy, S., Jackson, J. M., Bowman, D. C., Komjathy, A., Cutts, J. A., et al. (2021). The first detection of an earthquake from a balloon using its acoustic signature. Geophysical Research Letters, 48, e2021GL093013. https://doi.org/10.1029/2021GL093013
-{% endhighlight %}
+Brissaud, Q., Krishnamoorthy, S., Jackson, J. M., Bowman, D. C., Komjathy, A., Cutts, J. A., et al. (2021). The first detection of an earthquake from a balloon using its acoustic signature. Geophysical Research Letters, 48, e2021GL093013. 
+<https://doi.org/10.1029/2021GL093013>
+
 
 ![Balloon deployment in the Ridgecrest region in 2019.](/images/balloon_field_Ridgecrest.jpg)
 \

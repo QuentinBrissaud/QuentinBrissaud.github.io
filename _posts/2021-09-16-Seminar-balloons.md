@@ -9,9 +9,9 @@ tags: [presentation, infrasound, venus]
 comments: false
 ---
 
-{% highlight r %}
 Reference:
 Q. Brissaud, et al.  The first detection of an earthquake from a balloon using its acoustic signature. Geophysical Research Letters, e2021GL093013, 2021.
-{% endhighlight %}
+<https://doi.org/10.1029/2021GL093013>
+
 
 I will be giving a seminar at GeoAzur on September 16, 2021, Sophia Antipolis, France <https://geoazur.oca.eu/fr/agenda-geoazur>. I will be presenting my recent paper on ballon-based detection of seismic perturbations.

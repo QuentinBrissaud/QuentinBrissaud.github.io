@@ -9,10 +9,9 @@ tags: [presentation, infrasound, ionosphere, machine-learning]
 comments: false
 ---
 
-{% highlight r %}
 Reference:
-Quentin Brissaud and Elvira Astafyeva (2021) Near-real-time detection of co-seismic ionospheric disturbances using machine learning. Geophysical Journal International - Express letter (in review)
-https://doi.org/10.1002/essoar.10507674.1
-{% endhighlight %}
+Quentin Brissaud and Elvira Astafyeva (2021) Near-real-time detection of co-seismic ionospheric disturbances using machine learning. Geophysical Journal International (in review)
+<https://doi.org/10.1002/essoar.10507674.1>
+
 
 I will be giving a seminar together with Elvira Astafyeva at JPL, in the ionospheric group led by Olga Verkhoglyadova <https://scienceandtechnology.jpl.nasa.gov/people/o_verkhoglyadova> in October 2021. Results from my recent submitted paper on automatic detection of co-seismic ionospheric disturbances will be discussed.
