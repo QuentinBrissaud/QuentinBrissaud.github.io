@@ -3,7 +3,7 @@ layout: post
 title: "Guest editor for BSSA special issue on seismo-acoustic"
 description: "I have been invited to become a guest editor for BSSA until the end of 2023."
 output: html_document
-date: 2022-3-01 11:00:00 -0400
+date: 2022-03-01 11:00:00 -0400
 category: presentation
 tags: [journal, infrasound, seismo-acoustic, editor]
 comments: false
