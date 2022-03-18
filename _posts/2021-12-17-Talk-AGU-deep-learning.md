@@ -9,7 +9,6 @@ tags: [presentation, infrasound, machine-learning, modeling]
 comments: false
 ---
 
-{% highlight r %}
 Reference:
 [1] Q. Brissaud, S. P. Naesholm, A. Turquet, and A. Le Pichin. Predicting infrasound transmission loss using deep learning. Geophysical Journal International (in review, 2021)
 <https://doi.org/10.1002/essoar.10509609.1>
