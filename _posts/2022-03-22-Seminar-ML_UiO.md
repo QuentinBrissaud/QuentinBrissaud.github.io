@@ -14,7 +14,7 @@ Reference:
 <https://doi.org/10.1002/essoar.10509609.1>
 
 
-I will be giving an invited talk in the Digital Processing Group of the University of Oslo <https://agu.confex.com/agu/fm21/meetingapp.cgi/Paper/883443> on Tuesday, March 22. I will be discussing the implementation of a deep learning technique trained over a synthetic dataset to predict ground transmission loss, i.e., attenuation of infrasound waves vs range from a surface source.
+I will be giving an invited talk in the Digital Processing Group of the University of Oslo <https://www.mn.uio.no/ifi/english/research/groups/dsb/index.html> on Tuesday, March 22. I will be discussing the implementation of a deep learning technique trained over a synthetic dataset to predict ground transmission loss, i.e., attenuation of infrasound waves vs range from a surface source.
 
 [See blog post]({% post_url 2021-09-28-ML_acoustic %})
 
