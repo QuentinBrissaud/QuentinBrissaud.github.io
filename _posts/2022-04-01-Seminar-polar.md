@@ -3,7 +3,7 @@ layout: post
 title: "Invited seminar: Infrasound arrays as probes for atmospheric dynamics in polar regions"
 description: "The seminar will be given for the Norwegian and Swedish polar institutes symposium."
 output: html_document
-date: 2022-09-01 11:00:00 -0400
+date: 2022-07-01 11:00:00 -0400
 category: presentation
 tags: [presentation, infrasound, microbarom, atmosphere]
 comments: false

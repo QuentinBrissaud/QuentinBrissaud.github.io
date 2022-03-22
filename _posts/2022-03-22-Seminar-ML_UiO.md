@@ -3,7 +3,7 @@ layout: post
 title: "Invited talk at the University of Oslo: balloons as geophysical probes"
 description: "The talk will be held at the University of Oslo."
 output: html_document
-date: 2021-03-22 12:15:00 -0400
+date: 2022-03-22 12:15:00 -0400
 category: presentation
 tags: [presentation, infrasound, machine-learning, modeling]
 comments: false
