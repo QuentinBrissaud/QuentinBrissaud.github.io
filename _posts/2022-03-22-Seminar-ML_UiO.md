@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Invited talk at the University of Oslo: balloons as geophysical probes"
+title: "Invited talk at the University of Oslo: Predicting infrasound transmission loss using deep learning"
 description: "The talk will be held at the University of Oslo."
 output: html_document
 date: 2022-03-22 12:15:00 -0400
