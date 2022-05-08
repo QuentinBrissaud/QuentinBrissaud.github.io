@@ -10,7 +10,7 @@ comments: false
 ---
 
 References:
-Q. Brissaud, and E. Astafyeva. Near-real-time detection of co-seismic ionospheric disturbances using machine learning. Geophysical Journal International (accapted, 2022).
+Q. Brissaud, and E. Astafyeva. Near-real-time detection of co-seismic ionospheric disturbances using machine learning. Geophysical Journal International (2022). <https://doi.org/10.1093/gji/ggac167>
 
 Our paper has finally been accepted in Geophysical Journal International. See below for a quick summary and here for more details: [See blog post]({% post_url 2021-07-15-ML_TEC %})
 
