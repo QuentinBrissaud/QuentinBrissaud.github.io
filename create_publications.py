@@ -21,11 +21,7 @@ def modify_author(input, names, max_author):
     """
     #try:
     idx   = [iname for iname, name_ in enumerate(input_split) if last_name in name_][0] #input_split.index(name)
-    try:
-     name_right_format = input_split[idx]
-    
-    except:
-        bp()
+    name_right_format = input_split[idx]
         
     if idx > 2:
         if idx > 3:
@@ -112,6 +108,7 @@ def collect_all_studies(names, database=''):
         
     studies['title_upper'] = studies['title'].astype(str).str.upper()
     studies.drop_duplicates(subset=['title_upper'], inplace=True)
+    studies = studies.loc[~(studies.pub_year=='N/A')]
     studies.sort_values(by='pub_year', ascending=False, inplace=True)
     studies.reset_index(drop=True, inplace=True)
     
@@ -125,7 +122,10 @@ def process_one_study(study, name, max_author, istudy):
     keys_int = ['pub_year', 'volume', 'number']
     dict_study = study.to_dict()
     dict_study['no'] = istudy
-    dict_study['author'] = modify_author(dict_study['author'], name, max_author)
+    try:
+        dict_study['author'] = modify_author(dict_study['author'], name, max_author)
+    except:
+        dict_study['author'] = modify_author(dict_study['author'], 'Quentin Brissoud', max_author)
     for key in dict_study:
         if dict_study[key] == 'N/A':
             dict_study[key] = ''
@@ -197,6 +197,12 @@ options['add_by_hand'].append( entry )
 
 entry = {
     'type': 'conference', 'title': 'Detection and properties of local artillery infrasound', 'pub_year': 2021, 'author': 'Quentin Brissaud and Tormod Kværna and Kamran Iranpour and Tina Kaschwich and Idar Dyrdal', 'volume': 'N/A', 'number': 'N/A', 'pages': 'N/A', 'journal': 'CTBT Science and Technology Conference 2021 (SnT2021)', 'publisher': '', 'abstract': '', 'url': 'https://conferences.ctbto.org/event/7/book-of-abstracts.pdf', 'title_upper': '',
+}
+entry['title_upper'] = entry['title'].upper()
+options['add_by_hand'].append( entry )
+
+entry = {
+    'type': 'journal', 'title': 'Predicting infrasound transmission loss using deep learning ', 'pub_year': 2022, 'author': 'Quentin Brissaud and Sven Peter Nasholm and Antoine Turquet and Alexis Le Pichon', 'volume': 'N/A', 'number': 'N/A', 'pages': 'N/A', 'journal': 'Geophysical Journal International (in revision)', 'publisher': '', 'abstract': '', 'url': 'https://www.essoar.org/doi/10.1002/essoar.10509609.1', 'title_upper': '',
 }
 entry['title_upper'] = entry['title'].upper()
 options['add_by_hand'].append( entry )
