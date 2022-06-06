@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "New paper in EPSL: IMS observations of infrasound and acoustic-gravity waves produced by the January 2022 volcanic eruption of Hunga, Tonga: A global analysis"
+title: "New paper in EPSL: IMS observations of infrasound and acoustic-gravity waves produced by the January 2022 volcanic eruption of Hunga, Tonga"
 description: "A detailed investigation of the eruption chronology using IMS data"
 output: html_document
 date: 2022-06-03 10:00:00 -0400
