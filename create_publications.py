@@ -79,7 +79,7 @@ def get_one_entry(pub, keys_publications):
     
     return new_entry
 
-def collect_all_studies(names, database=''):
+def collect_all_studies(names, database='', remove_by_hand=[]):
 
     if database:
         studies = pd.read_csv(database, sep='|', header=[0])
@@ -98,6 +98,16 @@ def collect_all_studies(names, database=''):
     any_change = False
     for pub in author['publications']:
     
+        if remove_by_hand:
+            found = False
+            for entry in remove_by_hand:
+                for key in entry:
+                    print('- ', entry[key], pub['bib']['title'])
+                    if entry[key] in pub['bib']['title']:
+                        found = True
+            if found:
+                continue
+                        
         if studies.size > 0:
             if pub['bib']['title'] in studies['title'].values:
                 continue
@@ -188,6 +198,7 @@ options['output']   = './publications.md'
 
 ## Manual entries
 options['add_by_hand'] = []
+options['remove_by_hand'] = [{'title': 'Predicting infrasound transmission loss using deep learning'}]
 
 entry = {
     'type': 'conference', 'title': 'Balloons as geophysical probes', 'pub_year': 2021, 'author': 'Quentin Brissaud and Siddharth Krishnamoorthy and Jennifer M Jackson and Daniel C Bowman and Attila Komjathy and James A Cutts and Zhongwen Zhan and Michael T Pauken and Jacob S Izraelevitz and Gerald J Walsh', 'volume': 'N/A', 'number': 'N/A', 'pages': 'N/A', 'journal': 'Invited presentation at GeoAzur', 'publisher': '', 'abstract': '', 'url': 'https://geoazur.oca.eu/fr/agenda-geoazur', 'title_upper': '',
@@ -202,12 +213,20 @@ entry['title_upper'] = entry['title'].upper()
 options['add_by_hand'].append( entry )
 
 entry = {
-    'type': 'journal', 'title': 'Predicting infrasound transmission loss using deep learning ', 'pub_year': 2022, 'author': 'Quentin Brissaud and Sven Peter Nasholm and Antoine Turquet and Alexis Le Pichon', 'volume': 'N/A', 'number': 'N/A', 'pages': 'N/A', 'journal': 'Geophysical Journal International (in revision)', 'publisher': '', 'abstract': '', 'url': 'https://www.essoar.org/doi/10.1002/essoar.10509609.1', 'title_upper': '',
+    'type': 'conference', 'title': 'Listening to earthquakes from the clouds', 'pub_year': 2022, 'author': 'Quentin Brissaud', 'volume': 'N/A', 'number': 'N/A', 'pages': 'N/A', 'journal': 'Chinese Academy of Science', 'publisher': '', 'abstract': '', 'url': 'http://www.epp.ac.cn/activityView.asp?NewsId=857', 'title_upper': '',
+}
+entry['title_upper'] = entry['title'].upper()
+options['add_by_hand'].append( entry )
+
+entry = {
+    'type': 'journal', 'title': 'Predicting infrasound transmission loss using deep learning', 'pub_year': 2022, 'author': 'Quentin Brissaud and Sven Peter Nasholm and Antoine Turquet and Alexis Le Pichon', 'volume': '232', 'number': '1', 'pages': '274–286', 'journal': 'Geophysical Journal International', 'publisher': '', 'abstract': '', 'url': 'https://doi.org/10.1093/gji/ggac307', 'title_upper': '',
 }
 entry['title_upper'] = entry['title'].upper()
 options['add_by_hand'].append( entry )
 
 """
+
+
 entry = {
     'type': 'journal', 'title': 'Near-real-time detection of co-seismic ionospheric disturbances using machine learning', 'pub_year': 2021, 'author': 'Quentin Brissaud and Elvira Astafyeva', 'volume': 'N/A', 'number': 'N/A', 'pages': 'N/A', 'journal': 'Geophysical Journal International - Express letter (in review)', 'publisher': '', 'abstract': '', 'url': '', 'title_upper': '',
 }
@@ -222,7 +241,7 @@ entry['title_upper'] = entry['title'].upper()
 options['add_by_hand'].append( entry )
 """
 ## Fetch and build reference list
-studies = collect_all_studies(options['name'], options['database'])
+studies = collect_all_studies(options['name'], options['database'], options['remove_by_hand'])
 studies = add_specific_studies(studies, options['add_by_hand'])
 write_md_studies(studies, options['name'], options['format'])
 
