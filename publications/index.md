@@ -5,6 +5,7 @@ tags: [publications]
 comments: false
 ---
 
+
 0. **Quentin Brissaud**, Elvira Astafyeva, et al. (2022) [Near-real-time detection of co-seismic ionospheric disturbances using machine learning](https://academic.oup.com/gji/article-abstract/230/3/2117/6576768). *Geophysical Journal International*, 3(230):2117-2130
 1. D Mimoun, N Murdoch, R Garcia, ..., **Quentin Brissaud**, et al. (2022) [From InSight to Perseverance, Infrasound and Sound Recordings for Atmospheric Science and Surface-Atmosphere Interactions](https://ui.adsabs.harvard.edu/abs/2022LPICo2685.7012M/abstract). *LPI Contributions*, (2685):7012
 2. Robin S Matoza, David Fee, Jelle D Assink, ..., **Quentin Brissaud**, et al. (2022) [Atmospheric waves and global seismoacoustic observations of the January 2022 Hunga eruption, Tonga](https://www.science.org/doi/abs/10.1126/science.abo7063). *Science*
