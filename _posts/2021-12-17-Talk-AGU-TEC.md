@@ -10,9 +10,8 @@ comments: false
 ---
 
 Reference:
-Q. Brissaud, and E. Astafyeva. Near-real-time detection of co-seismic ionospheric disturbances using machine learning. Geophysical Journal International (in review, 2021).
-<https://doi.org/10.1002/essoar.10507674.1>
+Brissaud, Q., & Astafyeva, E. (2022). Near-real-time detection of co-seismic ionospheric disturbances using machine learning. Geophysical Journal International, 230(3), 2117-2130. <https://doi.org/10.1002/essoar.10507674.1><br><br>
 
-We will be giving an invited talk at the AGU 2021 during the session SA11B - Traveling Ionospheric Disturbances Driven From Above and From Below <https://agu.confex.com/agu/fm21/meetingapp.cgi/Paper/883443>.
+We will be giving an invited talk at the AGU 2021 during the session SA11B - Traveling Ionospheric Disturbances Driven From Above and From Below <https://agu.confex.com/agu/fm21/meetingapp.cgi/Paper/883443>.<br><br>
 
 [See blog post]({% post_url 2021-07-15-ML_TEC %})

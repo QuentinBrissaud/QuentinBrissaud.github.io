@@ -11,12 +11,12 @@ comments: false
 
 Reference:
 Q. Brissaud, et al.  The first detection of an earthquake from a balloon using its acoustic signature. Geophysical Research Letters, e2021GL093013, 2021.
-<https://doi.org/10.1029/2021GL093013>
+<https://doi.org/10.1029/2021GL093013><br><br>
 
 
-I will be giving an invited talk at the AGU 2021 during the session S51A - Geophysical and Planetary Seismoacoustics: Capturing the Full Wavefield <https://agu.confex.com/agu/fm21/meetingapp.cgi/Paper/801898>. I will be discussing infrasound-based subsurface inversions and offer perspectives for the deployement/design of inversion methods.
+I will be giving an invited talk at the AGU 2021 during the session S51A - Geophysical and Planetary Seismoacoustics: Capturing the Full Wavefield <https://agu.confex.com/agu/fm21/meetingapp.cgi/Paper/801898>. I will be discussing infrasound-based subsurface inversions and offer perspectives for the deployement/design of inversion methods.<br><br>
 
-[See blog post]({% post_url 2021-04-22-Balloons %})
+[See blog post]({% post_url 2021-04-22-Balloons %})<br><br>
 
 <object 
   data="/images/17.12.2021_Infrasound_earthquake_AGU.pdf" 

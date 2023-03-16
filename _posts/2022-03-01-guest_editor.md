@@ -9,6 +9,6 @@ tags: [journal, infrasound, seismoacoustic, editor]
 comments: false
 ---
 
-For the first time, the Bulletin of the Seismological Society of America has released a special issue on seismo-acoustic in 2022. I am a guest editor of this special issue until the end of 2023 together with the great Fransiska Dannemann, Alex Lezi, Jelle Assink, Jordan Bishop, and Leo Martire. Submission deadline in on October 1st, 2022. More details can be found here <https://www.seismosoc.org/publications/calls-papers/bssa-call-for-papers-4/>.
+For the first time, the Bulletin of the Seismological Society of America has released a special issue on seismo-acoustic in 2022. I am a guest editor of this special issue until the end of 2023 together with the great Fransiska Dannemann, Alex Lezi, Jelle Assink, Jordan Bishop, and Leo Martire. Submission deadline in on October 1st, 2022. More details can be found here <https://www.seismosoc.org/publications/calls-papers/bssa-call-for-papers-4/>.<br><br>
 
 ![BSSA seismo-acoustics call](/images/bssa_call.jpg)
