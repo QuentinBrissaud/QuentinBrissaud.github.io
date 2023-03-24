@@ -219,12 +219,17 @@ entry['title_upper'] = entry['title'].upper()
 options['add_by_hand'].append( entry )
 
 entry = {
-    'type': 'journal', 'title': 'Predicting infrasound transmission loss using deep learning', 'pub_year': 2022, 'author': 'Quentin Brissaud and Sven Peter Nasholm and Antoine Turquet and Alexis Le Pichon', 'volume': '232', 'number': '1', 'pages': '274–286', 'journal': 'Geophysical Journal International', 'publisher': '', 'abstract': '', 'url': 'https://doi.org/10.1093/gji/ggac307', 'title_upper': '',
+    'type': 'journal', 'title': '', 'pub_year': 2023, 'author': 'Quentin Brissaud and Antoine Turquet and Celso Alvizuri and Sven Peter Nasholm and Alexis Le Pichon and Johan Kero', 'volume': '', 'number': '', 'pages': '', 'journal': 'Geophysical Research Letters (in review)', 'publisher': '', 'abstract': '', 'url': '', 'title_upper': '',
 }
 entry['title_upper'] = entry['title'].upper()
 options['add_by_hand'].append( entry )
 
 """
+entry = {
+    'type': 'journal', 'title': 'Predicting infrasound transmission loss using deep learning', 'pub_year': 2022, 'author': 'Quentin Brissaud and Sven Peter Nasholm and Antoine Turquet and Alexis Le Pichon', 'volume': '232', 'number': '1', 'pages': '274–286', 'journal': 'Geophysical Journal International', 'publisher': '', 'abstract': '', 'url': 'https://doi.org/10.1093/gji/ggac307', 'title_upper': '',
+}
+entry['title_upper'] = entry['title'].upper()
+options['add_by_hand'].append( entry )
 
 
 entry = {
