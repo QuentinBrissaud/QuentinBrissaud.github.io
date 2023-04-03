@@ -12,3 +12,4 @@ feature_row:
 ---
 
 Test
+{% include feature_row %}
