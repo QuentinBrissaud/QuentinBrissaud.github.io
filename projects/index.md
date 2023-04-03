@@ -12,4 +12,4 @@ feature_row:
 ---
 
 Test
-{% include _navigation.html %}
+{% include feature_row.html %}
