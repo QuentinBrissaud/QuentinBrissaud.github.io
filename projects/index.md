@@ -1,7 +1,7 @@
 ---
 layout: splash
-title: Publications
-tags: [publications]
+title: Projects
+tags: [projects]
 comments: false
 feature_row:
   - image_path: images/balloon_field_Ridgecrest.jpg
