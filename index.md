@@ -24,4 +24,8 @@ excerpt: "Exotic data science applications in geophysics"
 tags: [blog]
 ---
 
+{% if page.image.feature %}
+test
+{% endif %}
+
 This is the homepage and blog of Quentin Brissaud. For more about me, <a href="/about" style="text-decoration: underline">see here</a>.
