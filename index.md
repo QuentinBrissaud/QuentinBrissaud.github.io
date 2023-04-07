@@ -3,7 +3,7 @@ layout: home
 image:
   feature: balloon_field_Ridgecrest.jpg
   credit: NASA. Deployment of a heliotrope balloon in Southern California after the 2019 Ridgecrest earthquake.
-excerpt: "Exotic seismo-acoustic applications in geophysics"
+excerpt: "Exotic data science applications in geophysics"
 tags: [blog]
 feature_row:
   - image_path: images/map_TL_freq_vs_range.png
