@@ -5,7 +5,7 @@ locale:           en_US
 # url:              http://localhost:4000
 
 name: Quentin Brissaud
-description: Near-surface seismic processes and atmospheric propagation
+description: Data science for geophysics
 
 # Jekyll configuration
 
@@ -30,7 +30,7 @@ kramdown:
 owner:
   name: Quentin Brissaud
   avatar: quentin.jpg
-  bio: "Geophysicist at NORSAR, Oslo."
+  bio: "Geophysicist/Data-scientist at NORSAR, Oslo."
   email: quentinbrissaud@gmail.com
   disqus-shortname: quentinbrissaud
   twitter: QuentinBrissaud
