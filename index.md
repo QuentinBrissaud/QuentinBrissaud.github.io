@@ -1,6 +1,6 @@
 ---
 layout: home
-feature_row:
+test:
   - image_path: images/map_TL_freq_vs_range.png
     image_caption: "Deep-learning predictions of infrasound amplitudes vs frequency and range"
     alt: "Deep-learning predictions of infrasound amplitudes vs frequency and range"
