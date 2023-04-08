@@ -1,7 +1,7 @@
 ---
 layout: home
 test:
-  - test2: images/map_TL_freq_vs_range.png
+  - image_path: images/map_TL_freq_vs_range.png
 image:
   feature: balloon_field_Ridgecrest.jpg
   credit: NASA. Deployment of a heliotrope balloon in Southern California after the 2019 Ridgecrest earthquake.
