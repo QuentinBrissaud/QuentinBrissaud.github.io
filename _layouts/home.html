@@ -33,6 +33,7 @@
     {% include _author-bio.html %}
   </div>
   <div id="index">
+	{% include feature_row.html %}
     {{ content }}
     <h3><a href="{{ site.url}}/posts/">News</a></h3>
     {% for post in site.posts limit:5 %}    
