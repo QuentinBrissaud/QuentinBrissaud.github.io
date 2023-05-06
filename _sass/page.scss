@@ -732,8 +732,8 @@ $button-size: 1.5rem;
   margin: 1.414em 0 0.5em;
   padding-bottom: 0.5em;
   font-size: 0.875em;
-  color: $muted-text-color;
-  border-bottom: 1px solid $border-color;
+  color: #333332;
+  border-bottom: 1px solid #333332;
 
   + .list__item .archive__item-title {
     margin-top: 0.5em;
@@ -784,7 +784,7 @@ $button-size: 1.5rem;
 
 .archive__item-teaser {
   position: relative;
-  border-radius: $border-radius;
+  border-radius: 1.;
   overflow: hidden;
 
   img {
@@ -799,13 +799,13 @@ $button-size: 1.5rem;
   margin: 0 auto;
   padding: 2px 5px;
   color: #fff;
-  font-family: $caption-font-family;
+  font-family: $base-font;
   font-size: 0.875em;
   background: #000;
   text-align: right;
   z-index: 5;
   opacity: 0.5;
-  border-radius: $border-radius 0 0 0;
+  border-radius: 1. 0 0 0;
 
 //   @include breakpoint($large) {
 //     padding: 5px 10px;
@@ -938,7 +938,7 @@ $button-size: 1.5rem;
 .feature__wrapper {
   @include clearfix();
   margin-bottom: 2em;
-  border-bottom: 1px solid $border-color;
+  border-bottom: 1px solid black;
 
   .archive__item-title {
     margin-bottom: 0;
