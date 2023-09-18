@@ -18,7 +18,7 @@ feature_row:
     excerpt: "XX"
   - image_path: images/iono_map_event_Iquique_30s.png
     image_caption: "Detected earthquake wave arrival times in a satellite network"
-    alt: Detected earthquake wave arrival times in a satellite network"
+    alt: "Detected earthquake wave arrival times in a satellite network"
     title: "2021: Detection of earthquakes from satellite data using machine learning"
     excerpt: "XX"
 
