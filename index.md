@@ -7,7 +7,4 @@ excerpt: "Exotic data science applications in geophysics"
 tags: [blog]
 ---
 
-This is the portoflio and blog of Quentin Brissaud. I am a geophysicist and data scientist investigating exotic seismic and acoustic applications.
-
-
-[![Check out my portfolio](https://img.shields.io/badge/See%20my%20portfolio-DF3B17)](https://quentinbrissaud.github.io/projects/) [![See my profile](https://img.shields.io/badge/See%20here-F9A431)](https://quentinbrissaud.github.io/about)
+This is the portoflio and blog of Quentin Brissaud. I am a geophysicist and data scientist investigating exotic seismic and acoustic applications [![Check out my portfolio](https://img.shields.io/badge/Check%20out%20my%20portfolio-DF3B17)](https://quentinbrissaud.github.io/projects/) [![See my profile](https://img.shields.io/badge/See%20my%20profile-F9A431)](https://quentinbrissaud.github.io/about)
