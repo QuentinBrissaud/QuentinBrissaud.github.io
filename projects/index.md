@@ -5,7 +5,7 @@ tags: [portfolio]
 comments: false
 intro: 
   - excerpt: 'My work includes Machine Learning applications for geophysics, seismic and acoustic event monitoring, and planetary exploration'
-feature_row_ML:
+feature_row:
 - image_path: images/ML_Ukraine.png
     image_caption: "Example of wave detection and classification on a seismometer in Ukraine"
     alt: "Example of wave detection and classification on a seismometer in Ukraine"
@@ -24,7 +24,7 @@ feature_row_ML:
 
 ---
 
-{% include feature_row.html id="intro" type="center" %}
+{% include feature_row.html type="center" %}
 
 ## Machine learning
 
