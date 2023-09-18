@@ -28,11 +28,10 @@ feature_row_ML:
 
 ## Machine learning
 
-{% include feature_row_ML %}
+{% include feature_row id="feature_row_ML" %}
 
 ## Event monitoring
 
-{% include feature_row_monitoring %}
 
 <!--
 ## Machine learning

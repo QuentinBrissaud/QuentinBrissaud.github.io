@@ -1,22 +1,21 @@
 ---
 layout: post
-title: "Invited seminar at Sandia Laboratory: Deep learning for conflict monitoring"
+title: "New preprint: "
 description: "I will be discussing recent progress in conflict monitoring using deep learning."
 output: html_document
-date: 2023-05-04 17:00:00 -0400
+date: 2023-09-01 17:00:00 -0400
 category: infrasound
 tags: [infrasound, seismic, Ukraine, conflict, explosion, machine-learning]
 comments: false
 ---
 
 Reference:
-B. Dando, B. Goertz-Allmann, Q. Brissaud, et al. Exposing military attacks in the 2022 Russia-Ukraine conflict using seismic array data. Nature (in review, 2023)
-<https://doi.org/10.21203/rs.3.rs-2613796/v1><br><br>
+A. Turquet, Q. Brissaud, et al. Understanding the atmospheric response to seismic sources: the 2020 Mw4.9 Kiruna minequake, Sweden. Geophysical Research Letters (in review, 2023) [![doi](https://img.shields.io/badge/doi-10.22541%2Fessoar.169444402.26377670%2Fv1-blue)](https://doi.org/10.22541/essoar.169444402.26377670/v1) <br><br>
 
-Our seismo-acoustic team at NORSAR has been actively working with seismic and infrasound data from Ukraine to monitor the 2022 Russia-Ukraine war in real time. We have collected unprecented insights about the spatial and time evolution of the conflict. We are currently building a deep-learning network for the automatic and highly-accurate detection and association of signals recorded in Ukraine. Our original work will be published soon in Nature. Below, is the presentation in pdf format:<br><br>
+A minequake of magnitude Mw4.9 occurred on 18 May 2020 early in the morning at the LKAB underground iron ore mine in Kiruna, Sweden. This is the largest mining-induced earthquake in Scandinavia. It generated acoustic signals observed at three infrasound arrays at 9.3 (KRIS, Sweden), 155 (IS37, Norway), and 286 km (ARCI, Norway) distance. Using regional seismic data, we performed a moment-tensor inversion highlighting that this event was dominated by a shallow-depth collapse in agreement with in-mine seismic station data. This was further confirmed by full waveform modelling within a coupled Earth-atmosphere model at local and regional distances using full moment tensor sources. Discrepancies between epicentral location from regional seismic inversion and simulated acoustic data indicate that local pressure records can help further constraining a seismic event location. Numerical simulations demonstrate a potential of using local and regional infrasound data to constrain focal mechanism and depth. Below, is the preprint in pdf format:<br><br>
 
 <object 
-  data="/images/2023.05.04_Brissaud_Ukraine_ML_Sandia.pdf" 
+  data="/images/2023_brissaud_preprint_Kiruna_GRL.pdf" 
   width="1000" 
   height="1000" 
   type="application/pdf"></object>
