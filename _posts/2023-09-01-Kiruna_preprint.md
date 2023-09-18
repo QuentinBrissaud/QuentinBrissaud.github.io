@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "New preprint: "
-description: "I will be discussing recent progress in conflict monitoring using deep learning."
+title: "New preprint: Seismic and acoustic analysis of the largest minequake in the Nordics"
+description: "We just released a preprint discussing the source mechanism of the largest minequake in the Nordics using seismic and acoustic data."
 output: html_document
 date: 2023-09-01 17:00:00 -0400
 category: infrasound
-tags: [infrasound, seismic, Ukraine, conflict, explosion, machine-learning]
+tags: [infrasound, seismic, minequake, seismic]
 comments: false
 ---
 

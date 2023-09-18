@@ -9,7 +9,7 @@ feature_row_ML:
 - image_path: images/ML_Ukraine.png
     image_caption: "Example of wave detection and classification on a seismometer in Ukraine"
     alt: "Example of wave detection and classification on a seismometer in Ukraine"
-    title: 2023: Conflict monitoring using seismic timeseries segmentation"
+    title: "2023: Conflict monitoring using seismic timeseries segmentation"
     excerpt: "XX"
   - image_path: images/map_TL_freq_vs_range.png
     image_caption: "Sound amplitude prediction vs range and frequency"

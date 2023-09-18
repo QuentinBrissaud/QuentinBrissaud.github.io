@@ -8,4 +8,5 @@ tags: [blog]
 ---
 
 # Portfolio
+---
 This is the portoflio and blog of Quentin Brissaud. I am a geophysicist and data scientist investigating exotic seismic and acoustic applications. You can access my portfolio here [![See my portfolio](https://img.shields.io/badge/See%20my%20portfolio-DF3B17)](https://quentinbrissaud.github.io/projects/). For more about me: [![See here](https://img.shields.io/badge/See%20here-F9A431)](https://quentinbrissaud.github.io/about/)
