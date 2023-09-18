@@ -10,27 +10,27 @@ feature_row_ML:
     image_caption: "Example of wave detection and classification on a seismometer in Ukraine"
     alt: "Example of wave detection and classification on a seismometer in Ukraine"
     title: 2023: Conflict monitoring using seismic timeseries segmentation"
-    excerpt: "[![Learn more](https://img.shields.io/badge/Learn%20more-F9A431)](https://quentinbrissaud.github.io/infrasound/Ukraine_Sandia/)"
+    excerpt: "XX"
   - image_path: images/map_TL_freq_vs_range.png
     image_caption: "Sound amplitude prediction vs range and frequency"
     alt: "Sound amplitude prediction vs range and frequency"
     title: "2022: Predicting sound amplitude with deep learning"
-    excerpt: "[![Learn more](https://img.shields.io/badge/Learn%20more-F9A431)](https://quentinbrissaud.github.io/presentation/Talk-AGU-deep-learning/) [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/QuentinBrissaud/ML_attenuation_infrasound)"
+    excerpt: "XX"
   - image_path: images/iono_map_event_Iquique_30s.png
     image_caption: "Detected earthquake wave arrival times in a satellite network"
     alt: Detected earthquake wave arrival times in a satellite network"
     title: "2021: Detection of earthquakes from satellite data using machine learning"
-    excerpt: "[![Learn more](https://img.shields.io/badge/Learn%20more-F9A431)](https://quentinbrissaud.github.io/ionosphere/ML_TEC/) [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/QuentinBrissaud/AIDE)"
+    excerpt: "XX"
 
 ---
 
 {% include feature_row id="intro" type="center" %}
 
-# Machine learning
+## Machine learning
 
 {% include feature_row_ML %}
 
-# Event monitoring
+## Event monitoring
 
 {% include feature_row_monitoring %}
 
