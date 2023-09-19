@@ -27,12 +27,10 @@ feature_row_ML:
 
 ---
 
-{% include feature_row.html id="intro" type="center" %}
+{% include feature_row id="intro" type="center" %}
 
 ## Machine learning
-![image-title-here](https://quentinbrissaud.github.io/images/quentin.jpg){:class="img-responsive"}
-
-{% include feature_row.html id="feature_row_ML" %}
+{% include feature_row id="feature_row_ML" %}
 
 ## Event monitoring
 
