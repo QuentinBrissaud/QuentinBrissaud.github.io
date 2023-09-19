@@ -30,6 +30,7 @@ feature_row_ML:
 {% include feature_row.html id="intro" type="center" %}
 
 ## Machine learning
+<img src="https://quentinbrissaud.github.io/images/quentin.jpg" width=200.>
 
 {% include feature_row.html id="feature_row_ML" %}
 
