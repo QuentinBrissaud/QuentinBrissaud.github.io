@@ -11,6 +11,9 @@ feature_row_ML:
     alt: "Example of wave detection and classification on a seismometer in Ukraine"
     title: "2023: Conflict monitoring using seismic timeseries segmentation"
     excerpt: "XX"
+    url: "#test-link"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
   - image_path: images/map_TL_freq_vs_range.png
     image_caption: "Sound amplitude prediction vs range and frequency"
     alt: "Sound amplitude prediction vs range and frequency"

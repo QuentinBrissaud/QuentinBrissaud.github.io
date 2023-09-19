@@ -5,7 +5,7 @@ tags: [about]
 comments: false
 ---
 
-I am a geophysicist working at [NORSAR](https://www.norsar.no/), in Oslo, Norway. My interests include near-surface seismology, natural and man-made geophysical event analysis using infrasound data, source and subsurface velocity inversions using seismic and infrasound records, and waveform modeling in coupled seismo-acoustic media. 
+I am a geophysicist and datascientist working at [NORSAR](https://www.norsar.no/) from Los Angeles, USA (remotely). I apply data-oriented solutions to exotic geophysical problems. My research interests in geophysics include near-surface seismology, natural and man-made geophysical event analysis using infrasound data, source and subsurface velocity inversions using seismic and infrasound records, and waveform modeling in coupled seismo-acoustic media. 
 
 Curriculum Vitae
 ============
