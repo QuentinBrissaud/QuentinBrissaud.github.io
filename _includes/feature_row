@@ -1,5 +1,8 @@
 ---
+# this is an empty front matter
+title: feature
 ---
+
 {% if include.id %}
   {% assign feature_row = page[include.id] %}
 {% else %}
