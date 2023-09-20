@@ -4,6 +4,7 @@
   {% assign feature_row = page.feature_row %}
 {% endif %}
 
+<img src="https://quentinbrissaud.github.io/images/quentin.jpg" width=200.>
 <div class="feature__wrapper">
 
   {% for f in feature_row %}
