@@ -3,10 +3,10 @@ layout: splash
 title: Portfolio
 ---
 
-{% include feature_row id="intro" type="center" %}
+{% include feature_row.html id="intro" type="center" %}
 
 ## Machine learning
-{% include feature_row id="feature_row_ML" %}
+{% include feature_row.html id="feature_row_ML" %}
 
 ## Event monitoring
 
