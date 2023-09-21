@@ -1,36 +1,12 @@
 ---
 layout: splash
 title: Portfolio
-tags: [portfolio]
-comments: false
-intro: 
-  - excerpt: 'My work includes Machine Learning applications for geophysics, seismic and acoustic event monitoring, and planetary exploration'
-feature_row_ML:
-  - image_path: images/ML_Ukraine.png
-    image_caption: "Example of wave detection and classification on a seismometer in Ukraine"
-    alt: "Example of wave detection and classification on a seismometer in Ukraine"
-    title: "2023: Conflict monitoring using seismic timeseries segmentation"
-    excerpt: "XX"
-    url: "#test-link"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
-  - image_path: images/map_TL_freq_vs_range.png
-    image_caption: "Sound amplitude prediction vs range and frequency"
-    alt: "Sound amplitude prediction vs range and frequency"
-    title: "2022: Predicting sound amplitude with deep learning"
-    excerpt: "XX"
-  - image_path: images/iono_map_event_Iquique_30s.png
-    image_caption: "Detected earthquake wave arrival times in a satellite network"
-    alt: "Detected earthquake wave arrival times in a satellite network"
-    title: "2021: Detection of earthquakes from satellite data using machine learning"
-    excerpt: "XX"
-
 ---
 
 {% include feature_row id="intro" type="center" %}
 
 ## Machine learning
-{% include feature_row id="feature_row_ML" %}
+{% raw %}{% include feature_row id="feature_row_ML" %}{% endraw %}
 
 ## Event monitoring
 
