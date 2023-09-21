@@ -6,7 +6,7 @@ title: Portfolio
 {% include feature_row id="intro" type="center" %}
 
 ## Machine learning
-{% raw %}{% include feature_row id="feature_row_ML" %}{% endraw %}
+{% include feature_row id="feature_row_ML" %}
 
 ## Event monitoring
 
