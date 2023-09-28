@@ -64,7 +64,41 @@ feature_row_ML:
 </div>
 
 ## Machine learning
-{% include feature_row.html id="feature_row_ML" %}
+{% assign feature_row = page.feature_row_ML %}
+<div class="feature__wrapper">
+
+  {% for f in feature_row %}
+    <div class="feature__item">
+      <div class="archive__item">
+        {% if f.image_path %}
+          <div class="archive__item-teaser">
+            <img src="{{ f.image_path | markdownify | relative_url }}" alt="{% if f.alt %}{{ f.alt }}{% endif %}" width=200.>
+            {% if f.image_caption %}
+              <span class="archive__item-caption">{{ f.image_caption | markdownify | remove: "<p>" | remove: "</p>" }}</span>
+            {% endif %}
+          </div>
+        {% endif %}
+
+        <div class="archive__item-body">
+          {% if f.title %}
+            <h4 class="archive__item-title">{{ f.title }}</h4>
+          {% endif %}
+
+          {% if f.excerpt %}
+            <div class="archive__item-excerpt">
+              {{ f.excerpt | markdownify }}
+            </div>
+          {% endif %}
+
+          {% if f.url %}
+            <p><a href="{{ f.url | relative_url }}" class="btn {{ f.btn_class }}">{{ f.btn_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a></p>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+
+</div>
 
 ## Event monitoring
 
