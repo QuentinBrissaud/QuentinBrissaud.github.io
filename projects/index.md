@@ -68,6 +68,7 @@ feature_row_ML:
 <div class="feature__wrapper">
 
 {% for f in feature_row %}
+<img src="{{ f.image_path | relative_url }}" alt="{% if f.alt %}{{ f.alt }}{% endif %}" width=200.>
   <div class="feature__item">
     <div class="archive__item">
       {% if f.image_path %}
