@@ -64,7 +64,7 @@ feature_row_ML:
 </div>
 
 ## Machine learning
-<img src="/images/ML_Ukraine.png" width=200.>
+<div><img src="/images/ML_Ukraine.png" width=200.></div>
 {% assign feature_row = page.feature_row_ML %}
 <div class="feature__wrapper">
 {% for f in feature_row %}
