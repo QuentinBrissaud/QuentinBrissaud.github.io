@@ -27,7 +27,7 @@ feature_row_ML:
 
 ---
 
-{% assign feature_row = page[intro] %}
+{% assign feature_row = page.intro %}
 <div class="feature__wrapper">
 
   {% for f in feature_row %}
