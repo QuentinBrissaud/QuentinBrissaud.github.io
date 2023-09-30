@@ -8,7 +8,7 @@ category: infrasound
 tags: [infrasound, seismic, minequake, seismic]
 comments: false
 header:
-  overlay_image: /images/kiruna_header.png
+  overlay_image: kiruna_header.png
   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
   caption: "xxx"
 ---
