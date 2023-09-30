@@ -8,7 +8,7 @@ category: infrasound
 tags: [infrasound, seismic, minequake, seismic]
 comments: false
 image:
-  feature: kiruna_header.jpg
+  feature: kiruna_header.png
   caption: Tunnels deep in the Kiruna mine, Sweden.
 ---
 
