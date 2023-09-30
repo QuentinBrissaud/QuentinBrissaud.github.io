@@ -7,6 +7,10 @@ date: 2023-09-01 17:00:00 -0400
 category: infrasound
 tags: [infrasound, seismic, minequake, seismic]
 comments: false
+header:
+  overlay_image: /images/kiruna_header.png
+  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
+  caption: "xxx"
 ---
 
 Reference:
