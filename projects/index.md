@@ -27,7 +27,7 @@ feature_row_ML:
 
 ---
 
-<img src="./images/ML_Ukraine.png" width=200.>
+<img src="https://quentinbrissaud.github.io/images/quentin.jpg" width=200.>
 {% assign feature_row = page.intro %}
 <div class="feature__wrapper">
 
