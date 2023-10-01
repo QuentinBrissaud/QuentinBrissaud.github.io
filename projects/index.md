@@ -43,8 +43,6 @@ feature_row_ML:
     </div>
   {% endfor %}
 
-</div>
-
 ## Machine learning
 {% assign feature_row = page.feature_row_ML %}
 <div class="feature__wrapper">
