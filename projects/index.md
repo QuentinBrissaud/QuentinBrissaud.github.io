@@ -28,10 +28,11 @@ feature_row_ML:
 ---
 
 {% assign feature_row = page.intro %}
+{% assign type = "center" %}
 <div class="feature__wrapper">
 
   {% for f in feature_row %}
-    <div class="feature__item">
+    <div class="feature__item{% if type %}--{{ type }}{% endif %}">
       <div class="archive__item">
           {% if f.excerpt %}
             <div class="archive__item-excerpt">
@@ -45,10 +46,11 @@ feature_row_ML:
 
 ## Machine learning
 {% assign feature_row = page.feature_row_ML %}
+{% assign type = "" %}
 <div class="feature__wrapper">
 {% for f in feature_row %}
   <div class="feature__item">
-    <div class="archive__item">
+    <div class="feature__item{% if type %}--{{ type }}{% endif %}">
       {% if f.image_path %}
         <div class="archive__item-teaser">
           <img src="{{ f.image_path | relative_url }}" alt="{% if f.alt %}{{ f.alt }}{% endif %}" width="100." />
