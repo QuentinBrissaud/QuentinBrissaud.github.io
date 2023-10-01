@@ -27,7 +27,6 @@ feature_row_ML:
 
 ---
 
-<p><img src="https://quentinbrissaud.github.io/images/quentin.jpg" width=200.></p>
 {% assign feature_row = page.intro %}
 <div class="feature__wrapper">
 
@@ -36,7 +35,7 @@ feature_row_ML:
       <div class="archive__item">
         {% if f.image_path %}
           <div class="archive__item-teaser">
-            <img src="{{ f.image_path | markdownify | relative_url }}" alt="{% if f.alt %}{{ f.alt }}{% endif %}" width=200.>
+            <img src="{{ f.image_path | markdownify | relative_url }}" alt="{% if f.alt %}{{ f.alt }}{% endif %}" width="200." />
             {% if f.image_caption %}
               <span class="archive__item-caption">{{ f.image_caption | markdownify | remove: "<p>" | remove: "</p>" }}</span>
             {% endif %}
@@ -73,7 +72,7 @@ feature_row_ML:
     <div class="archive__item">
       {% if f.image_path %}
         <div class="archive__item-teaser">
-          <img src="{{ f.image_path | relative_url }}" alt="{% if f.alt %}{{ f.alt }}{% endif %}" width=200.>
+          <img src="{{ f.image_path | relative_url }}" alt="{% if f.alt %}{{ f.alt }}{% endif %}" width="200." />
           {% if f.image_caption %}
             <span class="archive__item-caption">{{ f.image_caption | remove: "<p>" | remove: "</p>" }}</span>
           {% endif %}

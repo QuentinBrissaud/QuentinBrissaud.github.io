@@ -12,8 +12,6 @@ image:
   credit: Tunnels deep in the Kiruna mine, Sweden.
 ---
 
-<p><img src="https://quentinbrissaud.github.io/images/quentin.jpg" width="200." /></p>
-
 Reference:
 A. Turquet, Q. Brissaud, et al. Understanding the atmospheric response to seismic sources: the 2020 Mw4.9 Kiruna minequake, Sweden. Geophysical Research Letters (in review, 2023) [![doi](https://img.shields.io/badge/doi-10.22541%2Fessoar.169444402.26377670%2Fv1-blue)](https://doi.org/10.22541/essoar.169444402.26377670/v1) <br><br>
 
