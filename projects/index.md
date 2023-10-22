@@ -10,21 +10,35 @@ feature_row_ML:
     image_caption: "Example of wave detection and classification on a seismometer in Ukraine"
     alt: "Example of wave detection and classification on a seismometer in Ukraine"
     title: "2023: Conflict monitoring using seismic timeseries segmentation"
-    excerpt: "XX"
-    url: "#test-link"
+    excerpt: "We developed model to detect and pick seismic and sound signals from explosions during the Ukraine-Russia war by training a CNN autoencoder with self-attention."
+    url: "https://quentinbrissaud.github.io/infrasound/Ukraine_Sandia/"
     btn_label: "Read More"
     btn_class: "btn--primary"
   - image_path: images/map_TL_freq_vs_range.png
     image_caption: "Sound amplitude prediction vs range and frequency"
     alt: "Sound amplitude prediction vs range and frequency"
     title: "2022: Predicting sound amplitude with deep learning"
-    excerpt: "XX"
+    excerpt: "We trained a deep CNN to compute the sound amplitudes from explosions by mapping atmospheric winds sound attenuation at ground level."
+    url: "https://quentinbrissaud.github.io/infrasound/ML_acoustic/"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
   - image_path: images/iono_map_event_Iquique_30s.png
     image_caption: "Detected earthquake wave arrival times in a satellite network"
     alt: "Detected earthquake wave arrival times in a satellite network"
     title: "2021: Detection of earthquakes from satellite data using machine learning"
-    excerpt: "XX"
-
+    excerpt: "We built an automatic detector and arrival time picker of large earthquake signals in GNSS satellite data using Ranfom Forests."
+    url: "https://quentinbrissaud.github.io/ionosphere/ML_TEC/"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+feature_row_event:
+  - image_path: images/kiruna_schematic_3d.png
+    image_caption: "3D mine diagram and the acoustic array location (label A), our seismic solution (label B), and locations of main source types from (Dineva et al., 2022)"
+    alt: "3D mine diagram"
+    title: "2023: Seismic and acoustic analysis of the largest minequake in the Nordics"
+    excerpt: "We were able to retrieve seismic source parameters from the sound signature of a large minequake."
+    url: "https://quentinbrissaud.github.io/infrasound/Kiruna_preprint/"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
 ---
 
 {% assign feature_row = page.intro %}
