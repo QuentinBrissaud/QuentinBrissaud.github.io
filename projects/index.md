@@ -39,6 +39,22 @@ feature_row_event:
     url: "https://quentinbrissaud.github.io/infrasound/Kiruna_preprint/"
     btn_label: "Read More"
     btn_class: "btn--primary"
+  - image_path: images/Ukraine_detection.png
+    image_caption: "An unreported explosion northeast of Malyn detected by our model."
+    alt: "An unreported explosion northeast of Malyn detected by our model."
+    title: "2023: Seismic monitoring of the Ukraine-Russia war"
+    excerpt: "We developed a model to perform seismic and infrasound monitoring of the 2022 Russia-Ukraine war in real time."
+    url: "https://quentinbrissaud.github.io/infrasound/Ukraine_Nature/"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+  - image_path: images/Hunga_map_cropped.jpg
+    image_caption: "Map of the seismo-acoustic and satellite detectections of the 2022 Hunga eruption."
+    alt: "Map of the seismo-acoustic and satellite detectections of the 2022 Hunga eruption."
+    title: "2023: Atmospheric waves and global seismoacoustic observations of the January 2022 Hunga eruption, Tonga"
+    excerpt: "We analyzed the seismic, acoustic, and satellite data after the 2022 Hunga eruption, the largest volcanic eruption in recorded history."
+    url: "https://quentinbrissaud.github.io/volcano/Hunga_Science/"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
 ---
 
 {% assign feature_row = page.intro %}
@@ -96,7 +112,41 @@ feature_row_event:
 </div>
 
 ## Event monitoring
+{% assign feature_row = page.feature_row_event %}
+{% assign type = "" %}
+<div class="feature__wrapper">
+{% for f in feature_row %}
+  <div class="feature__item">
+    <div class="feature__item{% if type %}--{{ type }}{% endif %}">
+      {% if f.image_path %}
+        <div class="archive__item-teaser">
+          <img src="{{ f.image_path | relative_url }}" alt="{% if f.alt %}{{ f.alt }}{% endif %}" width="100." />
+          {% if f.image_caption %}
+            <span class="archive__item-caption">{{ f.image_caption | remove: "<p>" | remove: "</p>" }}</span>
+          {% endif %}
+        </div>
+      {% endif %}
 
+      <div class="archive__item-body">
+        {% if f.title %}
+          <h4 class="archive__item-title">{{ f.title }}</h4>
+        {% endif %}
+
+        {% if f.excerpt %}
+          <div class="archive__item-excerpt">
+            {{ f.excerpt | markdownify }}
+          </div>
+        {% endif %}
+
+        {% if f.url %}
+          <p><a href="{{ f.url | relative_url }}" class="btn {{ f.btn_class }}">{{ f.btn_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a></p>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+{% endfor %}
+
+</div>
 
 <!--
 ## Machine learning
