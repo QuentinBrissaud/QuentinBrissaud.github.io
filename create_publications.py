@@ -20,7 +20,10 @@ def modify_author(input, names, max_author):
     idx = idx[0]
     """
     #try:
-    idx   = [iname for iname, name_ in enumerate(input_split) if last_name in name_][0] #input_split.index(name)
+    idx   = [iname for iname, name_ in enumerate(input_split) if last_name in name_]
+    if len(idx) == 0:
+        return None
+    idx = idx[0] #input_split.index(name)
     name_right_format = input_split[idx]
         
     if idx > 2:
@@ -102,7 +105,7 @@ def collect_all_studies(names, database='', remove_by_hand=[]):
             found = False
             for entry in remove_by_hand:
                 for key in entry:
-                    print('- ', entry[key], pub['bib']['title'])
+                    #print('- ', entry[key], pub['bib']['title'])
                     if entry[key] in pub['bib']['title']:
                         found = True
             if found:
@@ -135,7 +138,11 @@ def process_one_study(study, name, max_author, istudy):
     try:
         dict_study['author'] = modify_author(dict_study['author'], name, max_author)
     except:
-        dict_study['author'] = modify_author(dict_study['author'], 'Quentin Brissoud', max_author)
+        dict_study['author'] = modify_author(dict_study['author'], 'Quentin Brissaud', max_author)
+
+    if dict_study['author'] is None:
+        return None
+
     for key in dict_study:
         if dict_study[key] == 'N/A':
             dict_study[key] = ''
@@ -164,6 +171,8 @@ def write_md_studies(studies, name, format_md, max_author=3):
             for istudy, study in group.iterrows():
                 
                 dict_study = process_one_study(study, name, max_author, istudy)
+                if dict_study is None:
+                    continue
                 line   = format_md['base'].format(**dict_study)
                 if dict_study['volume']:
                     line += format_md['volume'].format(**dict_study)
@@ -198,7 +207,8 @@ options['output']   = './publications.md'
 
 ## Manual entries
 options['add_by_hand'] = []
-options['remove_by_hand'] = [{'title': 'Predicting infrasound transmission loss using deep learning'}]
+#options['remove_by_hand'] = [{'title': 'Predicting infrasound transmission loss using deep learning'},]
+options['remove_by_hand'] = [{'title': 'Supporting Information for Parsimonious velocity inversion applied to the Los Angeles Basin, CA'},]
 
 entry = {
     'type': 'conference', 'title': 'Balloons as geophysical probes', 'pub_year': 2021, 'author': 'Quentin Brissaud and Siddharth Krishnamoorthy and Jennifer M Jackson and Daniel C Bowman and Attila Komjathy and James A Cutts and Zhongwen Zhan and Michael T Pauken and Jacob S Izraelevitz and Gerald J Walsh', 'volume': 'N/A', 'number': 'N/A', 'pages': 'N/A', 'journal': 'Invited presentation at GeoAzur', 'publisher': '', 'abstract': '', 'url': 'https://geoazur.oca.eu/fr/agenda-geoazur', 'title_upper': '',
